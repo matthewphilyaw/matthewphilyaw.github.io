@@ -10,6 +10,12 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+```c
+while(1) {
+
+}
+```
+
 ```nasm
 #define sfr_b(x)
 #define sfr_w(x)

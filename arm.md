@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<section>
-  <h1>Arm related posts</h1>
-</section>
+## Arm related posts
 
 {% include post_filtered.html category='arm' %}

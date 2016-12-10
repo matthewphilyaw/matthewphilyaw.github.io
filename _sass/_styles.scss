@@ -1,5 +1,11 @@
 // This file contains custom (non hack.css) styles
 
+.hack hr {
+    &:after {
+        content: "--------------------------------------------------------------------------------------------------------------------------------------------------";
+    }
+}
+
 .t-hackcss {  // Main prefix to avoid collisions
 
   // navigation.html
@@ -8,7 +14,7 @@
     padding-right: $spacing-unit;
   }
 
-  @at-root .hack &-navigation-heading {
+  @at-root body .container {
     padding-top: 20px;
   }
 
