@@ -25,8 +25,25 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+highlighter: none
 markdown: kramdown
-theme: minima
+kramdown:
+    syntax_highlighter_opts:
+        disable: true
+theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
+
+navigation:
+    - text: Home
+      url: /
+    - text: Arm
+      url: /arm.html
+    - text: MSP 430
+      url: /msp430.html
+    - text: AVR
+      url: /avr.html
+    - text: Programming
+      url: /programming.html
+
 gems:
   - jekyll-feed
 exclude:

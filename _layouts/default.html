@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="hack dark-grey">
+
+    <div class="container">
+      <div class="grid">
+        <aside class="cell -3of12" role="navigation">
+          {% include navigation.html %}
+        </aside>
+
+        <main class="cell -9of12">
+          {{ content }}
+        </main>
+      </div>
+
+    {% include footer.html %}
+
+    </div>
+
+    <!-- Prism.js -->
+    <script src="{{ "/assets/js/prism.js" | prepend: site.baseurl }}"></script>
+  </body>
+
+</html>
